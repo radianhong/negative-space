@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+/* Changes the font for the entire page */
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.special-text {
+    font-family: "Courier New", Courier, monospace;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.topright-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 40px; /* Adjust this value to change the spacing from the screen edge */
+}
+.topleft-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px; /* Adjust this value to change the spacing from the screen edge */
+}
+.bottomright-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 40px; /* Adjust this value to change the spacing from the screen edge */
+}
+.bottomleft-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 40px; /* Adjust this value to change the spacing from the screen edge */
+}
+.bottomleft-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 40px; /* Adjust this value to change the spacing from the screen edge */
+}
+
+.poem-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.poem-slide {
+    height: 100vh;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    }
+.poem-content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
